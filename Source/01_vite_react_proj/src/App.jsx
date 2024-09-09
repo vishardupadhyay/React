@@ -1,6 +1,12 @@
+import NewApp from "./NewApp";
 
-function App() {
-  return <h1>React with Vite | Vishard Upadhyay</h1>
+function App(){
+  return (
+    <>
+      <p> App Component.</p>
+      <NewApp />
+    </>
+  )
 }
 
 export default App
